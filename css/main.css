@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-light: #F6F3ED;
+}
 
-
-
+.btn {
+  --bs-btn-bg:var(--bs-primary);
+  --bs-btn-border-color:var(--bs-primary);
+}
 
 
 .navbar-brand {
